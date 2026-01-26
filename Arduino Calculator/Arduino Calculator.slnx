@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Arduino Calculator/Arduino Calculator.vcxproj" Id="300e47e0-5b09-480a-b87b-847ac3900ba5" />
+</Solution>
