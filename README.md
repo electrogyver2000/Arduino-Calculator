@@ -2,10 +2,9 @@
 This project demonstrates a robust, bi-directional communication bridge between a Windows-based PC and an Arduino microcontroller. Designed as a modular calculator system, it facilitates the exchange of algebraic expressions via an RS232/UART serial interface, featuring real-time visual feedback and automated transaction logging.
 
 ## How it works
-The PC Side: A C++ console application that treats the serial COM port as a file stream. It handles expression input, logs transactions to a file, and manages communication settings.
-
+The goal was to desing and implement two distinct interacting software applications.
+• The PC Side: A C++ console application that treats the serial COM port as a file stream. It handles expression input, logs transactions to a file, and manages communication settings.
 • The Hardware Side: An Arduino Uno that listens for a "CALC " prefix. It parses the string, performs the math, and manages visual feedback via status LEDs and an I2C LCD display.
-
 • The Protocol: Simple ASCII-based communication. The PC sends "CALC [expr]\n" and the Arduino replies with the result.
 
 ## Project Structure
