@@ -1,0 +1,3 @@
+﻿  Arduino Calculator.cpp
+C:\Users\Michael\source\repos\Arduino Calculator\Arduino Calculator\Arduino Calculator.cpp(132,64): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+  Arduino Calculator.vcxproj -> C:\Users\Michael\source\repos\Arduino Calculator\x64\Debug\Arduino Calculator.exe
