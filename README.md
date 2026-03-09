@@ -1,5 +1,5 @@
 # Arduino Serial Calculator
-This project bridges the gap between a standard Windows console application and an Arduino Uno. I built this to get hands-on experience with Windows API serial communication and embedded firmware parsing. It allows you to send simple math expressions from your PC, which the Arduino then calculates and displays on an I2C LCD screen.
+This project demonstrates a robust, bi-directional communication bridge between a Windows-based PC and an Arduino microcontroller. Designed as a modular calculator system, it facilitates the exchange of algebraic expressions via an RS232/UART serial interface, featuring real-time visual feedback and automated transaction logging.
 
 ## How it works
 The PC Side: A C++ console application that treats the serial COM port as a file stream. It handles expression input, logs transactions to a file, and manages communication settings.
